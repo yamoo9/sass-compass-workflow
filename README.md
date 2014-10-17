@@ -16,6 +16,6 @@ $ node install
 - [grunt-contrib-uglify](https://github.com/gruntjs/grunt-contrib-uglify)
 - [grunt-contrib-jshint](https://github.com/jshint/jshint)
 - [grunt-contrib-compass](https://github.com/gruntjs/grunt-contrib-compass)
-- [grunt-contrib-imagemin](https://www.npmjs.org/package/imagemin)
+- [grunt-contrib-imagemin](https://github.com/gruntjs/grunt-contrib-imagemin)
 - [grunt-contrib-watch](https://github.com/gruntjs/grunt-contrib-watch)
 - [matchdep](https://github.com/tkellen/node-matchdep)
