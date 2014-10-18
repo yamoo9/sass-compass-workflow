@@ -1,0 +1,42 @@
+//////////////////////////////
+// TYPOGRAPHY, 타이포그래피
+//////////////////////////////
+
+html
+	font-size: 62.5% // 16px * 0.625 = 10px
+
+body
+	font-family: $nanum-gothic
+	// mixins.sass에 정의된 font-size 믹스인 사용
+	// http://snook.ca/archives/html_and_css/font-size-with-rem
+	+font-size(1.4)
+	line-height: 1.5
+	background: $paleyellow
+	color: $darkblue
+
+// Compass Selector Helpers
+// heading(all), heading(2), heading(4, 6)
+// http://compass-style.org/reference/compass/helpers/selectors/
+#{headings()}
+	font-weight: normal
+	color: $darkgray
+	line-height: 1
+
+h1
+	+font-size(2.2)
+
+h2
+	+font-size(1.8)
+
+h3
+	+font-size(1.5)
+
+a
+	text-decoration: none
+	color: $mediumgray
+	&:hover,
+	&:focus
+		color: $orange
+
+p
+	margin-bottom: 1em
