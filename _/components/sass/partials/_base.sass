@@ -1,7 +1,18 @@
 ////////////////////////////////
 // BASE, 베이스
 ////////////////////////////////
+html {
+    overflow-y: scroll;
+    -webkit-tap-highlight-color: hsla(0,0%,0%,.3);
+    tap-highlight-color: hsla(0,0%,0%,.3);
+}
 
-// FRAMEWORK 호출
-@import "compass"
-@import "susy"
+html, html a {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}

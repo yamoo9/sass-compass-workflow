@@ -1,3 +1,8 @@
+// FRAMEWORK 호출
+@import "compass"
+@import "susy"
+
+// CORE Partials 호출
 @import "partials/fonts";
 @import "partials/variables";
 @import "partials/mixins";

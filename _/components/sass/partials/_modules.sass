@@ -1,3 +1,21 @@
 ////////////////////////////////
 // MODULES, 모듈
 ////////////////////////////////
+
+// 공용 클래스
+////////////////////////////////
+
+// 플레이스홀더 선택자
+%clearfix::before,
+%clearfix::after {
+    content: '';
+    display: table;
+}
+%clearfix::after { clear: both; }
+.lt-ie8 %clearfix { zoom: 1; }
+
+%box-sizing { @include box-sizing; }
+
+// 클래스 확장
+.clearfix { @extend %clearfix; }
+*, *::before, *::after { @extend %box-sizing; }
